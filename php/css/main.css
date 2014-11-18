@@ -1,0 +1,133 @@
+html, body,div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, 
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/*table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}*/
+
+#textheader
+{
+margin-top: 20px;
+}
+
+#header
+{
+height: 110px;
+width:100%;
+border-bottom: 2px solid #000000;
+
+}
+
+#body
+{
+height: auto;
+width: 100%;
+border-bottom: 2px solid #000000;
+}
+
+#bottom
+{
+height:340px;
+width:100%;
+border-bottom:2px solid #000000;
+}
+
+#comment
+{
+width:20%;
+margin-top:10px;
+margin-left: 40%;
+}
+
+#buttoncomment
+{
+margin-left:40%;
+width:20%;
+}
+#tablecomment
+{
+width:80%;
+margin-left:10%;
+}
+#tablecomment thead tr
+{
+background:#000;
+color: #fff;
+}
+#spancomments{
+text-align:center;
+margin-bottom:20px;
+}
+#formlogin{
+margin-top:20px;
+margin-left:20px;
+margin-bottom:20px;
+}
+
+.header{
+margin-top:20px;
+margin-left:20px;
+}
+
+
+
+ul.css-menu-2 {
+list-style: none;
+border-bottom: 1px #000000 solid;
+padding-top: 20px;
+padding-left:15px;
+padding-bottom: 10px;
+}
+
+ul.css-menu-2 li {
+display: inline;
+margin-right: 5px
+}
+
+ul.css-menu-2 li a {
+color: #000000;
+text-decoration: none;
+background: #ffffff;
+border: 1px #000000 solid;
+border-bottom: none;
+padding: 10px 14px
+}
+
+ul.css-menu-2 li a:hover {
+padding: 14px 14px 10px 14px
+}
+
+
